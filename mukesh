@@ -1,0 +1,4 @@
+Using default tag: latest
+latest: Pulling from library/alpine
+Digest: sha256:28ef97b8686a0b5399129e9b763d5b7e5ff03576aa5580d6f4182a49c5fe1913
+Status: Image is up to date for alpine:latest
