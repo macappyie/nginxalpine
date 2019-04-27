@@ -362,3 +362,263 @@ df -TH
 systemctl restart docker
 systemctl status docker
 df -Th
+ls
+ll
+cat Dockerfile 
+cat index.html 
+yum install git
+git init
+git add 
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/macappyie/nginxalpine.git
+git push -u origin master
+cd /usr/share
+ls
+cd
+docker ps
+systemctl restart docker
+docke rimages
+docker images
+dokcker ps
+docker ps
+docker ps -a
+docker ps
+docker images
+docker run -d -p 80:80 --name web webservernginx:alpine
+docker ps
+docker ps -a
+docker start 1894122fe136
+docker ps
+docker run -d -p 81 --name web2 webservernginx:alpine
+docker ps
+docker kill e8314db127ce 1894122fe136
+docker ps
+docker ps -a
+history 
+docker images
+docker push macappyie/webservernginx
+docker tag d94994497e3c macappyie/webservernginx
+docker images
+docker push macappyie/webservernginx
+docker images
+docker run --rm -it -p 45678:45678 -p 45679:45679 --name echo-server ubuntu:14.04 bash
+docker ps
+docker run --rm -it --link server --net=example2 --name client ubuntu:14.04 bash
+docker ps
+docker network ls
+docker network create example1
+docker network ls
+docker network create example2
+docker network ls
+docker  network connect example2 server
+docker network connect example2 server
+docker run --rm -it --net=example1 --name server ubuntu:14.04 bash
+docker ps
+docker ps
+docker run --rm -it --link server --net=newnetwork --name client ubuntu:14.04 bash
+nc -lp 45678 | nc -l 45679
+nc -lp 45678
+yum install nc
+nc -lp 45678 | nc -l 45679
+nc -lp 45678
+nc -lp 45679
+docker ps
+nc 45679
+nc -lp
+nc -lp 0.0.0.0:45678
+nc -lp 45678
+nc -lp 0.0.0.0:45679
+nc -lp 45678
+nc -lp 0.0.0.0:45678
+docker ps
+docker ps
+docker kill 6c8b88b7a86f
+docker ps
+vim test
+docker run --rm -it --name SERVER ubuntu:14.04 bash
+docker ps
+docker kill 0dd3c39c9dc5
+docker ps
+docker network create newnetwork
+docker run --rm -it --net=newnetwork --name server ubuntu:14.04 bash
+docker ps
+docker network ls
+docker ps
+docker images
+docker run --rm -it --link SERVER --name CLIENT ubuntu:14.04 bash
+docker ps
+docker ps
+ll
+mkdir 1
+cd 1
+ll
+vim index.js
+ll
+vim Dockerfile
+docker build -t hello:v1 .
+vim Dockerfile 
+docker build -t hello:v1 .
+vim Dockerfile 
+docker build -t hello:v1 .
+vim Dockerfile 
+docker build -t hello:v1 .
+vim Dockerfile 
+ll
+docker build -t hello:v1 .
+vim Dockerfile 
+docker build -t hello:v1 .
+vim Dockerfile 
+docker build -t hello:v1 .
+vim Dockerfile 
+docker build -t hello:v1 .
+vim index.js 
+docker build -t hello:v1 .
+vim index.js 
+vim Dockerfile 
+docker build -t hello:v1 .
+vim Dockerfile 
+docker build -t hello:v1 .
+ll
+rm -rf *
+cd
+ll
+rm -rf 1
+ll
+vim index.js
+mv Dockerfile Dockerfile_1
+vim Dockerfile
+docker build -t hello:v1 .
+vim Dockerfile
+docker build -t hello:v1 .
+docker images
+vim Dockerfile
+docker build -t hello:v1 .
+docker images
+vim Dockerfile
+ll
+docker build -t hello:v1.0 .
+vim Dockerfile
+docker images
+docker build -t hello:v1.0 .
+cat index.js 
+cat Dockerfile
+docker images
+docker rmi 1675fa3b848f
+docker images
+docker ps
+echo "console.log(\"this is v0.2\");" >> index.js
+cat index.js 
+docker build -t hello:v2.0 .
+docker images
+docker image inspect alpine
+docker image pull alpine > mukesh
+cat mukesh 
+docker image inspect alpine > mukeshh
+ll
+cat mukeshh
+docker image inspect --format "{{ json .RootFS.Layers }}" alpine
+ docker image inspect --format "{{ json .RootFS.Layers }}" alpine
+docker images
+ docker image inspect --format "{{ json .RootFS.Layers }}" 7b88f479acd8
+ docker image inspect --format "{{ json .RootFS.Layers }}" 92c153932ec6
+ docker image inspect --format "{{ json .RootFS.Layers }}" d94994497e3c
+docker ps
+docker run -it hello:v1.0
+docker ps
+docker run -it hello:v1.0 bash
+docker run -it hello:v1.0 /bin/sh
+docker ps
+docker ps -a
+docker run -it hello:v2.0
+vim mukesh
+vim mukeshh
+git add .
+git commit -m "files added"
+git push origin master
+docker images
+docker tag 92c153932ec6 macappyie/hello:v1.0
+docker tag 7b88f479acd8 macappyie/hello:v2.0
+docker push macappyie/hello:v1.0
+docker push macappyie/hello:v2.0
+docker images
+docker rmi hello
+docker rmi hello:v2.0
+docker rmi hello:v1.0
+docker images
+docker rmi webservernginx
+docker rmi webservernginx:alpine
+docker images
+docker rmi ourfiglet
+docker images
+docker ps
+docker ps -a
+docker ps
+ll
+cd /var/www/html/
+ll
+docker ps -
+docker ps -a
+docker ps
+docker run -it -v /shared-folder --name container1 ubuntu bash
+docker run -it --volumes-from container2 --name container3 ubuntu bash
+df -TH
+yum install httpd
+cd /var/www/html/
+ll
+vim phpinfo.php
+ip r l
+systemctl restart httpd
+cat phpinfo.php phpinfo.php 
+pwd
+docker run -it -v /var/www/html:/shared-folder ubuntu bash
+systemctl restart dockr
+systemctl start docker
+docker run -it -v /var/www/html:/shared-folder ubuntu bash
+docker ps
+docker ps -a
+docker ps
+df -TH
+docker ps
+docker run -it --volumes-from container1 --name container2 ubuntu bash
+docker ps
+docker exec -it c16b50d0cf29
+docker exec -it c16b50d0cf29 bash
+docker ps
+docker kill c16b50d0cf29
+docker ps
+docker ps -a
+docker inspect ba931dcffa2e
+cd /var/lib/docker/
+ls -lrth
+cd container
+cd containers
+ls -lrth
+docker ps -a
+cd ba931dcffa2ed2c7d7dbc681318cefcf818b01b7ecce6f2a585bb71a82a8bde7
+ls -lrth
+cd mounts/
+ls -lrth
+cd shm/
+ls -lrth
+cd ../..
+ll
+cd checkpoints/
+ll
+cd /var/lib/
+ll
+cd docker/
+ll
+cd volumes/
+ll
+cd 039fd24a249bbc08f25fa33439d58459dd2943d39f5c5c1c6e01d38c750ae043/
+ll
+cd _data/
+ll
+pwd
+cd ../..
+ll
+cd ..
+ll
+pwd
+ls -lrath
